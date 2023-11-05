@@ -10,7 +10,7 @@
   "extends": "airbnb-typescript/base",
   "plugins": ["import", "@typescript-eslint"],
   "rules": {
-    "comma-dangle": ["error", "never"],
+    "comma-dangle": 0,
     "no-underscore-dangle": 0,
     "no-param-reassign": 0,
     "no-return-assign": 0,
